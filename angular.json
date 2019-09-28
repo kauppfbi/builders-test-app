@@ -118,8 +118,13 @@
               "devServerTarget": "builders-test-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "builders-test-app"
 }
